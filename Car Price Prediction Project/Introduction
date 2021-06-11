@@ -1,5 +1,0 @@
-This Project aims at predicting the car selling price based on various features like year, actual price, kms driven, fuel type, etc.
-The dataset has been taken from Kaggle.
-I have used Random forest regressor to build the model. The EDA is done using numpy and pandas and visualization libraries like seaborn and matplot. After this, for hyper parameter tuning I have used Randomized Search CV which selects the best parameters required.
-Deployment:
-I have deployed the model on Heroku platform by creating a simple HTML form for taking the input values from the user and then passing these values to the Python file(app.py) which renders the HTML template using Flask and Jsonify.
